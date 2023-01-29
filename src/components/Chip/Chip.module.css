@@ -1,0 +1,63 @@
+.chip-block {
+    border: 2px solid black;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 3px 5px;
+
+    height: 30px;
+    min-width: 80px;
+    width: fit-content;
+}
+
+.chip-block:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+    background-color: rgb(246, 246, 246);
+}
+
+.chip-block > span {
+    font-size: 14px;
+}
+
+.chip-selected {
+    background-color: var(--dark-grey);
+    color: white;
+}
+
+.chip-selected > .number {
+    color: black;
+}
+
+.number {
+    height: 25px;
+    min-width: 25px;
+    width: fit-content;
+    border-radius: 25px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2px;
+
+    margin-left: 5px;
+
+    font-size: 14px;
+}
+
+.number-completed {
+    background-color: var(--light-green);
+}
+
+.number-todo {
+    background-color: var(--light-grey);
+}
+
+.number-review {
+    background-color: var(--light-purple);
+}

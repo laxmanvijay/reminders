@@ -1,0 +1,59 @@
+.reminder-block {
+    min-width: 100px;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.more {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option-btn {
+    position: relative;
+}
+
+.option-btn:hover {
+    cursor: pointer;
+}
+
+.option-box {
+    position: absolute;
+
+    left: -370%;
+    top: 120%;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    width: 100px;
+
+    background-color: var(--very-light-grey);
+}
+
+.option-box > div:not(:last-child) {
+    border-bottom: 2px solid black;
+}
+
+.option-box > div:hover {
+    background-color: var(--light-grey);
+}
+
+.option-box > div {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+}

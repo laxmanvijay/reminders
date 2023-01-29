@@ -1,0 +1,47 @@
+.create-reminder-block {
+    padding: 30px 30px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.title > input {
+    margin-bottom: 10px;
+    padding: 5px 0px;
+
+    outline: none;
+    border: none;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--dark-grey);
+}
+
+.moreInfo > textarea {
+    margin-bottom: 10px;
+    padding: 5px 0px;
+
+    height: 100px;
+    width: -webkit-fill-available;
+
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Halant';
+    letter-spacing: 1px;
+    color: var(--dark-grey);
+    resize: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
